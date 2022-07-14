@@ -13,9 +13,20 @@
 		6496633D284A114400153290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6496633B284A114400153290 /* Main.storyboard */; };
 		6496633F284A114700153290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6496633E284A114700153290 /* Assets.xcassets */; };
 		64966342284A114700153290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64966340284A114700153290 /* LaunchScreen.storyboard */; };
+		6496634B284A31E600153290 /* GoogleMapApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496634A284A31E600153290 /* GoogleMapApi.swift */; };
+		6496634D284A4EED00153290 /* GoogleMaocodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496634C284A4EED00153290 /* GoogleMaocodable.swift */; };
+		6496634F284A5CBC00153290 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6496634E284A5CBC00153290 /* CoreLocation.framework */; };
+		64966353284B873C00153290 /* ListmapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64966352284B873C00153290 /* ListmapTableViewCell.swift */; };
+		64B29DC7284F1FF20063EF63 /* PetFriendlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B29DC6284F1FF20063EF63 /* PetFriendlyViewController.swift */; };
+		64B29DC9284F202F0063EF63 /* PetFriendlyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B29DC8284F202F0063EF63 /* PetFriendlyTableViewCell.swift */; };
+		64B29DCB284F2F490063EF63 /* petFriendMKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B29DCA284F2F490063EF63 /* petFriendMKAnnotation.swift */; };
+		64B29DCD2850443F0063EF63 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B29DCC2850443F0063EF63 /* Server.swift */; };
+		B380CBA361C2AF4E424EE7A8 /* Pods_PetDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3403577BE1DFFA862674931 /* Pods_PetDiary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0120A4C380951CB2A5778211 /* Pods-PetDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetDiary.debug.xcconfig"; path = "Target Support Files/Pods-PetDiary/Pods-PetDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		21E6EB44F9B8415A4B88E2BB /* Pods-PetDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetDiary.release.xcconfig"; path = "Target Support Files/Pods-PetDiary/Pods-PetDiary.release.xcconfig"; sourceTree = "<group>"; };
 		64966332284A114400153290 /* PetDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64966335284A114400153290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64966337284A114400153290 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		6496633E284A114700153290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64966341284A114700153290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64966343284A114700153290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6496634A284A31E600153290 /* GoogleMapApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapApi.swift; sourceTree = "<group>"; };
+		6496634C284A4EED00153290 /* GoogleMaocodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMaocodable.swift; sourceTree = "<group>"; };
+		6496634E284A5CBC00153290 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		64966352284B873C00153290 /* ListmapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListmapTableViewCell.swift; sourceTree = "<group>"; };
+		64B29DC6284F1FF20063EF63 /* PetFriendlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendlyViewController.swift; sourceTree = "<group>"; };
+		64B29DC8284F202F0063EF63 /* PetFriendlyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFriendlyTableViewCell.swift; sourceTree = "<group>"; };
+		64B29DCA284F2F490063EF63 /* petFriendMKAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petFriendMKAnnotation.swift; sourceTree = "<group>"; };
+		64B29DCC2850443F0063EF63 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		A3403577BE1DFFA862674931 /* Pods_PetDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6496634F284A5CBC00153290 /* CoreLocation.framework in Frameworks */,
+				B380CBA361C2AF4E424EE7A8 /* Pods_PetDiary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		648E721229835B6FF50F43D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0120A4C380951CB2A5778211 /* Pods-PetDiary.debug.xcconfig */,
+				21E6EB44F9B8415A4B88E2BB /* Pods-PetDiary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		64966329284A114400153290 = {
 			isa = PBXGroup;
 			children = (
 				64966334284A114400153290 /* PetDiary */,
 				64966333284A114400153290 /* Products */,
+				648E721229835B6FF50F43D4 /* Pods */,
+				D57D7DC84D84D8373B30F82F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,55 @@
 		64966334284A114400153290 /* PetDiary */ = {
 			isa = PBXGroup;
 			children = (
+				64966351284B734C00153290 /* View */,
+				64966350284B733B00153290 /* ViewModel */,
+				64966349284A31CD00153290 /* Model */,
 				64966335284A114400153290 /* AppDelegate.swift */,
 				64966337284A114400153290 /* SceneDelegate.swift */,
-				64966339284A114400153290 /* ViewController.swift */,
 				6496633B284A114400153290 /* Main.storyboard */,
 				6496633E284A114700153290 /* Assets.xcassets */,
 				64966340284A114700153290 /* LaunchScreen.storyboard */,
 				64966343284A114700153290 /* Info.plist */,
 			);
 			path = PetDiary;
+			sourceTree = "<group>";
+		};
+		64966349284A31CD00153290 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64B29DCC2850443F0063EF63 /* Server.swift */,
+				6496634C284A4EED00153290 /* GoogleMaocodable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64966350284B733B00153290 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6496634A284A31E600153290 /* GoogleMapApi.swift */,
+				64B29DC6284F1FF20063EF63 /* PetFriendlyViewController.swift */,
+				64B29DCA284F2F490063EF63 /* petFriendMKAnnotation.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64966351284B734C00153290 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64966339284A114400153290 /* ViewController.swift */,
+				64B29DC8284F202F0063EF63 /* PetFriendlyTableViewCell.swift */,
+				64966352284B873C00153290 /* ListmapTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D57D7DC84D84D8373B30F82F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6496634E284A5CBC00153290 /* CoreLocation.framework */,
+				A3403577BE1DFFA862674931 /* Pods_PetDiary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64966346284A114700153290 /* Build configuration list for PBXNativeTarget "PetDiary" */;
 			buildPhases = (
+				E15D84984B343D51FF9624B7 /* [CP] Check Pods Manifest.lock */,
 				6496632E284A114400153290 /* Sources */,
 				6496632F284A114400153290 /* Frameworks */,
 				64966330284A114400153290 /* Resources */,
+				A640C8330E385650F817A735 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,13 +208,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A640C8330E385650F817A735 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetDiary/Pods-PetDiary-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetDiary/Pods-PetDiary-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetDiary/Pods-PetDiary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E15D84984B343D51FF9624B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetDiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6496632E284A114400153290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B29DCD2850443F0063EF63 /* Server.swift in Sources */,
+				64B29DCB284F2F490063EF63 /* petFriendMKAnnotation.swift in Sources */,
 				6496633A284A114400153290 /* ViewController.swift in Sources */,
+				64B29DC7284F1FF20063EF63 /* PetFriendlyViewController.swift in Sources */,
+				64B29DC9284F202F0063EF63 /* PetFriendlyTableViewCell.swift in Sources */,
 				64966336284A114400153290 /* AppDelegate.swift in Sources */,
+				64966353284B873C00153290 /* ListmapTableViewCell.swift in Sources */,
+				6496634D284A4EED00153290 /* GoogleMaocodable.swift in Sources */,
+				6496634B284A31E600153290 /* GoogleMapApi.swift in Sources */,
 				64966338284A114400153290 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +406,7 @@
 		};
 		64966347284A114700153290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0120A4C380951CB2A5778211 /* Pods-PetDiary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,12 +429,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		64966348284A114700153290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E6EB44F9B8415A4B88E2BB /* Pods-PetDiary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,7 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
